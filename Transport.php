@@ -2,9 +2,9 @@
 
 abstract class Transport
 {
-    public int $speed;
-    public int $price;
-    public int $weight;
+    protected int $speed;
+    protected int $price;
+    protected int $weight;
 
     public function __construct($speed, $price, $weight)
     {
